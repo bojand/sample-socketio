@@ -1,4 +1,4 @@
-name: sample-ws-server
+name: sample-socketio
 services:
   - name: server
     github:

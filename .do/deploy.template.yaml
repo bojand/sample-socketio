@@ -1,0 +1,11 @@
+spec:
+  name: sample-socketio
+  services:
+    - name: server
+      github:
+        repo: bojand/sample-socketio
+        branch: main
+      envs:
+        - key: NODE_ENV
+          scope: RUN_TIME
+          value: production
